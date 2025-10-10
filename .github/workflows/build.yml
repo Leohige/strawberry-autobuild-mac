@@ -5,8 +5,9 @@ on:
       - main
   schedule:
     - cron: '0 0 * * *'
-  permissions:
-    contents: write
+    
+permissions:
+  contents: write
 
 jobs:
   build-macos-public:
